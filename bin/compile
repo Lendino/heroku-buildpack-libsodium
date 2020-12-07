@@ -6,7 +6,8 @@
 set -eo pipefail
 
 ### Constants
-
+VERSION=1.0.18
+SODIUM_DIR=libsodium-$VERSION
 TARBALL=libsodium-1.0.18.tar.gz
 TARBALL_URL=https://github.com/jedisct1/libsodium/releases/download/1.0.18-RELEASE/$TARBALL
 
